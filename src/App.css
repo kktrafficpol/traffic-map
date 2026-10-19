@@ -43,3 +43,21 @@ body,
   border-radius: 8px;
   font-family: Arial, Tahoma, sans-serif;
 }
+
+/* Sits just above Google's bottom-left attribution. */
+.updated {
+  position: absolute;
+  z-index: 10;
+  left: 10px;
+  bottom: calc(34px + env(safe-area-inset-bottom, 0px));
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #374151;
+  border-radius: 999px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: nowrap;
+  pointer-events: none;
+}
