@@ -61,13 +61,6 @@ export default function App() {
 
   return (
     <main className="app">
-      <header className="header">
-        <div>
-          <h1>Traffic Map</h1>
-          {/* <p>Google Maps + Real-time Traffic</p> */}
-        </div>
-        {/* <span className="status">Traffic Layer</span> */}
-      </header>
 
       {error && <div className="error">{error}</div>}
 
