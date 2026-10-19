@@ -70,9 +70,9 @@ export default function App() {
         aria-label="Google Maps showing traffic conditions"
       />
 
-      <footer>
+      {/* <footer>
         แผนที่ขอนแก่น · สามารถเลื่อน ซูม และเปลี่ยนพื้นที่ได้
-      </footer>
+      </footer> */}
     </main>
   )
 }
